@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Środowiska wirtualne
+.venv/
+venv/
+env/
+
+# Testy i narzędzia
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Artefakty projektu
+*.pkl
+index/
+.cache/
+data/wikipedia/
+
+# Modele pobierane przez sentence-transformers
+.cache_st/
+models/
+
+# Sekrety
+.env
+*.key
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
